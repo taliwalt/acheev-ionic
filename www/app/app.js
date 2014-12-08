@@ -12,7 +12,6 @@ angular.module('starter', [
   'app.friends',
   'app.friends.services',
   'app.friend.details'
-
 ])
 
 .run(function($ionicPlatform) {

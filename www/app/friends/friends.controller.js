@@ -6,9 +6,10 @@
 
     .controller('FriendsCtrl', FriendsCtrl);
 
-  FriendsCtrl.$inject = ['$scope', 'Friends'];
+  FriendsCtrl.$inject = ['$scope', 'Friends', '$log'];
 
-  function FriendsCtrl($scope, Friends) {
+  function FriendsCtrl($scope, Friends, $log) {
+    $log.info("FRIENDSCTRL");
     $scope.friends = Friends.all();
   };
 
