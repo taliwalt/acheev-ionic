@@ -19,10 +19,17 @@ module.exports = function(config) {
       'lib/angular-mocks/angular-mocks.js',
       'app/app.js',
 
+      'app/account/account.js',
+
+      'app/dashboard/dashboard.js',
+
+      'app/friends/details/friend.js',
+
       'app/friends/friends.js',
       'app/friends/friends.config.js',
       'app/friends/friends.service.js',
-      'app/friends/friends.controller.js'
+      'app/friends/friends.controller.js',
+      'app/friends/friends.controller.test.js',
 
     ],
 
